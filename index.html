@@ -2,7 +2,14 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <script>
+        function setVh() {
+            document.documentElement.style.setProperty('--vh', window.innerHeight * 0.01 + 'px');
+        }
+        setVh();
+        window.addEventListener('resize', setVh);
+    </script>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> 
     <link rel="stylesheet" href="styles.css">
     <title>Login</title>
@@ -23,7 +30,7 @@
             </div>
 
             <div class="lembrar-esqueci">
-                <label >
+                <label>
                     <input type="checkbox">
                     Lembrar Senha 
                 </label>
@@ -36,8 +43,6 @@
                 <p>Não possui conta? <a href="#">Cadastre-se</a></p>
             </div>
         </form>
-
     </main>
-    
 </body>
 </html>
