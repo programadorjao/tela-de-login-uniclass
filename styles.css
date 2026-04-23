@@ -36,7 +36,6 @@ body {
     padding: 30px 40px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     backdrop-filter: blur(4px);
-    display: flex;
     position: relative;
     z-index: 1;
 }
