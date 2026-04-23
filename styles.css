@@ -38,6 +38,7 @@ body {
     backdrop-filter: blur(4px);
     position: relative;
     z-index: 1;
+    min-height: 100dvh;
 }
 .container h1 {
     font-size: 36px;
