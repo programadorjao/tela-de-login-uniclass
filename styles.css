@@ -36,6 +36,8 @@ body {
     padding: 30px 40px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     backdrop-filter: blur(4px);
+    position: relative;
+    z-index: 1;
 }
 .container h1 {
     font-size: 36px;
